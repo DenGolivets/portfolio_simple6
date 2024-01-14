@@ -44,8 +44,9 @@
 .footer-icons-container {
     padding: 10px;
     padding-bottom: 6px;
-    background: #fbfbfb;
+    background: rgba(240, 102, 48, 0.548);
     border: 1px solid #ebebeb;
+    border-radius: 30px;
 }
 
 .footer-icons-container img {
@@ -69,4 +70,31 @@
     border: none;
     border-radius: 10px;
     background: #c7c7c7;
+}
+
+@media(max-width:800px) {
+        .footer {
+            gap: 20px;
+        }
+        .footer-logo {
+            gap: 10px;
+            align-items: end;
+        }
+        .footer-logo img {
+            width: 40px;
+            margin-top: 10px;
+        }
+        .footer-logo p {
+            font-size: 25px;
+        }
+        .footer-links {
+            font-size: 14px;
+            gap: 10px;
+        }
+        .footer-social-icon img {
+            width: 22px;
+        }
+        .footer-copyright {
+            font-size: 13px;
+        }
 }
